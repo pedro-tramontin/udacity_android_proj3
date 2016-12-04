@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="quiz_app_title_content_description">text quiz with the letter u stylized in the form of the periodic table uranium, below there is the text app with the last letter p stylized in the form of the period table phosphorus, behind the text to the downright corner there is a smoke</string>
+
+    <string name="question_1">Question 1</string>
+    <string name="question_2">Question 2</string>
+    <string name="question_3">Question 3</string>
+    <string name="question_4">Question 4</string>
+    <string name="question_5">Question 5</string>
+    <string name="question_6">Question 6</string>
+    <string name="question_7">Question 7</string>
+    <string name="question_8">Question 8</string>
+    <string name="question_9">Question 9</string>
+
+    <string name="question_text_1">What\'s Breaking Bad\'s main character name?</string>
+    <string name="question_text_2">How many seasons there were in Breaking Bad?</string>
+    <string name="question_text_3">How many different people directed Breaking Bad\'s episodes?</string>
+    <string name="question_text_4">Which emmy prizes Breaking Bad received?</string>
+    <string name="question_text_5">Before going into drugs, in which place(s) did Walter White used to work?</string>
+    <string name="question_text_6">Which was/were the car(s) of Walter White?</string>
+    <string name="question_text_7">What\'s the name of the fried chicken restaurants of Gus Fring?</string>
+    <string name="question_text_8">What\'s the name of Breaking Bad\'s spin-off?</string>
+    <string name="question_text_9">What\'s the name of Breaking Bad\'s best rated episode? (according to IMDB)</string>
+
+    <string name="question_1_option_1">Hank Schrader</string>
+    <string name="question_1_option_2">Saul Goodman</string>
+    <string name="question_1_option_3">Walter White</string>
+
+    <string name="question_2_option_1">4</string>
+    <string name="question_2_option_2">5</string>
+    <string name="question_2_option_3">6</string>
+
+    <string name="question_3_option_1">2</string>
+    <string name="question_3_option_2">25</string>
+    <string name="question_3_option_3">29</string>
+
+    <string name="question_4_option_1">Outstanding Lead Actor</string>
+    <string name="question_4_option_2">Outstanding Supporting Actor and Acctress</string>
+    <string name="question_4_option_3">Outstanding Drama Series</string>
+
+    <string name="question_5_option_1">J. P. Wynne High School</string>
+    <string name="question_5_option_2">Gray Matter Technologies</string>
+    <string name="question_5_option_3">A1A Car Wash</string>
+
+    <string name="question_6_option_1">Dodge Challenger SRT8</string>
+    <string name="question_6_option_2">Pontiac Aztek</string>
+    <string name="question_6_option_3">Chrysler 300 SRT8</string>
+
+    <string name="free_text_hint">Answer here</string>
+
+    <string name="btn_check_answer">Check Answer</string>
+
+</resources>
