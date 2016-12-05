@@ -51,4 +51,14 @@
 
     <string name="btn_check_answer">Check Answer</string>
 
+    <!-- String template to the result line of each question -->
+    <string name="question_result_mask">Question %d: %s</string>
+
+    <string name="result_correct">Correct</string>
+    <string name="result_incorrect">Incorret</string>
+
+    <!-- Answer to the texts questions -->
+    <string name="question_7_answer">Los Pollos Hermanos</string>
+    <string name="question_8_answer">Better Call Saul</string>
+    <string name="question_9_answer">Ozymandias</string>
 </resources>

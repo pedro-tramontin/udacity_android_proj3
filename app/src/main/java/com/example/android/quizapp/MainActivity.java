@@ -15,9 +15,6 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String CORRECT_RESULT = "Correct";
-    public static final String INCORRECT_RESULT = "Incorrect";
-
     // Correct options for the radio buttons
     @BindView(R.id.radio_question_1_option3)
     RadioButton question1Answer;
@@ -56,14 +53,6 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.text_question_9)
     EditText question9answer;
 
-    // String template to the result line of each question
-    String questionResultMask = "Question %d: %s";
-
-    // Answer to the texts questions
-    String question7AnswerText = "Los Pollos Hermanos";
-    String question8AnswerText = "Better Call Saul";
-    String question9AnswerText = "Ozymandias";
-
     // Number of correct answers
     int totalCorrect;
 
@@ -93,9 +82,9 @@ public class MainActivity extends AppCompatActivity {
         results += "\n" + questionCheckBoxResult(5, new CheckBox[]{question5checkbox1, question5checkbox3}, new CheckBox[]{question5checkbox2});
         results += "\n" + questionCheckBoxResult(6, new CheckBox[]{question6checkbox2, question6checkbox3}, new CheckBox[]{question6checkbox1});
 
-        results += "\n" + questionEditTextResult(7, question7AnswerText, question7answer);
-        results += "\n" + questionEditTextResult(8, question8AnswerText, question8answer);
-        results += "\n" + questionEditTextResult(9, question9AnswerText, question9answer);
+        results += "\n" + questionEditTextResult(7, getString(R.string.question_7_answer), question7answer);
+        results += "\n" + questionEditTextResult(8, getString(R.string.question_8_answer), question8answer);
+        results += "\n" + questionEditTextResult(9, getString(R.string.question_9_answer), question9answer);
 
         results += "\n\n" + String.format(Locale.getDefault(), "Total %d/9", totalCorrect);
 
@@ -171,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
      * @return the result line based on the questionResultMask
      */
     private String formatCorrectResult(int questionNumber) {
-        return String.format(Locale.getDefault(), questionResultMask, questionNumber, CORRECT_RESULT);
+        return String.format(Locale.getDefault(), getString(R.string.question_result_mask), questionNumber, getString(R.string.result_correct));
     }
 
     /**
@@ -181,6 +170,6 @@ public class MainActivity extends AppCompatActivity {
      * @return the result line based on the questionResultMask
      */
     private String formatIncorrectResult(int questionNumber) {
-        return String.format(Locale.getDefault(), questionResultMask, questionNumber, INCORRECT_RESULT);
+        return String.format(Locale.getDefault(), getString(R.string.question_result_mask), questionNumber, getString(R.string.result_incorrect));
     }
 }
