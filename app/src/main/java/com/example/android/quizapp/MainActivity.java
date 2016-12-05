@@ -130,11 +130,11 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param questionNumber the number of the question being checked
      * @param expectedText   the correct answer
-     * @param textView       the editText containing the actual answer from the user
+     * @param editText       the editText containing the actual answer from the user
      * @return The resulting line according to the user answer
      */
-    private String questionEditTextResult(int questionNumber, String expectedText, EditText textView) {
-        return questionResult(questionNumber, expectedText.equalsIgnoreCase(textView.getText().toString()));
+    private String questionEditTextResult(int questionNumber, String expectedText, EditText editText) {
+        return questionResult(questionNumber, expectedText.equalsIgnoreCase(editText.getText().toString()));
     }
 
     /**
